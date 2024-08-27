@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/build",
+  "command": "/usr/bin/c++  -I/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/inc -I/usr/local/cuda/include  -O3 -std=gnu++17 -o CMakeFiles/reduction.dir/src/main.cpp.o -c /home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/main.cpp",
+  "file": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/main.cpp"
+},
+{
+  "directory": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/build",
+  "command": "/usr/bin/c++  -I/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/inc -I/usr/local/cuda/include  -O3 -std=gnu++17 -o CMakeFiles/reduction.dir/src/reduce_cpu.cpp.o -c /home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/reduce_cpu.cpp",
+  "file": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/reduce_cpu.cpp"
+},
+{
+  "directory": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/build",
+  "command": "/usr/bin/nvcc -forward-unknown-to-host-compiler  -I/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/inc -I/usr/local/cuda/include  -O3 -arch=sm_86 --generate-code=arch=compute_52,code=[compute_52,sm_52] -std=c++17 -x cu -c /home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/reduce_gpu.cu -o CMakeFiles/reduction.dir/src/reduce_gpu.cu.o",
+  "file": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/reduce_gpu.cu"
+},
+{
+  "directory": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/build",
+  "command": "/usr/bin/c++  -I/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/inc -I/usr/local/cuda/include  -O3 -std=gnu++17 -o CMakeFiles/reduction.dir/src/timer.cpp.o -c /home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/timer.cpp",
+  "file": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/timer.cpp"
+},
+{
+  "directory": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/build",
+  "command": "/usr/bin/c++  -I/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/inc -I/usr/local/cuda/include  -O3 -std=gnu++17 -o CMakeFiles/reduction.dir/src/utils.cpp.o -c /home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/utils.cpp",
+  "file": "/home/lim/Desktop/other/GPU/GPU_LC/lesson3/ReduceInteger_2/src/utils.cpp"
+}
+]
